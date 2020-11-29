@@ -1,0 +1,36 @@
+.newslater{
+    padding-top: 50px;
+    text-align: center;
+    span{
+        font-size: 30px;
+    }
+    .barre{
+      background-color:#F6F7FB;
+      color: #999999;
+      width: 50vw;
+      text-align: left;
+      padding-right: 10px;
+    }
+    .recherche{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    .bouton{
+        width: fit-content;
+    }
+    h3{
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 900px){
+    .newslater{
+        .recherche{
+            flex-direction: column;
+            align-items: center;
+        }
+        .bouton{
+            margin-top: 20px;
+        }
+    }
+}

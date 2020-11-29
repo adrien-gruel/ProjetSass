@@ -1,0 +1,44 @@
+.Service{
+    padding: 5vh 10vw;
+    background-image: url('../img/background-service.png');
+    background-size: cover;
+    .carte{
+        display: flex;
+        flex-direction: column;
+        width:calc( (90% - 40px) / 3 );
+        margin: 30px;
+        padding:  20px;
+        border-radius: 10px;
+        box-shadow: 0.9px 10px 15.5px 0.5px rgba(98, 98, 98, 0.19);
+        background-color: #ffffff;
+        p{
+            font-family: 'Lato', sans-serif;
+            font-size: 13px;
+            padding-bottom: 30px;
+        }
+        div{
+            align-self: center;
+        }
+        .bouton{
+            align-self: flex-end;
+            justify-self: flex-end;
+            font-size: 15px;
+        }
+    }
+    section{
+        
+        display: flex;
+    }
+
+}
+@media (max-width: 900px){
+    .Service{
+        section{
+            flex-direction: column;
+            align-items: center;
+        }
+        .carte{
+            width: 80vw;
+        }
+    }
+}

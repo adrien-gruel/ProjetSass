@@ -1,0 +1,24 @@
+nav{
+    ul{
+        display: flex;
+        align-items: flex-end;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        font-family: 'poppins', sans-serif;
+        color: white;
+        padding: 0 3vw;
+    }
+}
+
+@media (max-width: 900px){
+    ul{
+        margin-top: 10px;
+        width: 100vw;
+        background: linear-gradient(to left, #6156F9, #1A129F);
+        justify-content: center;
+    }
+}

@@ -1,0 +1,56 @@
+header{
+    
+    background-image: url('../img/BgShape.png');
+    background-size: 62%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    
+}
+header{
+    p{
+        margin: auto 5px;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    section{
+        padding: 5vh 10vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    h1{
+        font-size: 40px ;
+        font-weight: 'Poppins', sans-serif ;
+        padding-bottom: 20px;
+    }
+    span{
+        font-size: 60px ;
+        font-weight: 'Poppins', sans-serif ;
+        font-weight: bold;
+    }
+    .headergauche{
+         p{
+           color: #7A839E;
+           font-size: 15px;
+           padding-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width: 900px){
+    header {
+        background-image: none;
+        section{
+            flex-direction: column;
+            align-items: center;
+        }
+        .headerdroite{
+            img{
+            width: 70vw;
+        }
+    }
+    }
+    
+}
